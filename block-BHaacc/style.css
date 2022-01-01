@@ -1,0 +1,339 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custum Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+    color: white;
+    margin-bottom: 300px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    height: 500px;
+    background:linear-gradient(to right,rgba(73,137,216,0.8),rgba(139,242,146,0.8) ),url(assets/home-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.left {
+       align-content: flex-start;
+}
+.left li {
+    font-size: 25px;
+    
+
+}
+.middle {
+    justify-content: center;
+    margin-left: 12px;
+}
+.middle li {
+    margin-right: 35px;
+    font-size: 14px;
+}
+
+.right {
+    justify-content: end;
+}
+.right li {
+    margin-left: 20px;
+    font-size: 14px;
+    color: white;
+}
+.right a {
+    color: #faf3f3;
+}
+.btn {
+    background-color: #CF3732;
+    padding: 10px;
+    border-radius: 20px;
+}
+.padding {
+    padding: 32px 0;
+}
+.header-cotent {
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.header-cotent-text h1 {
+    font-size: 32px;
+}
+.hero-btn {
+    font-size: 14px;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-right: 12px;
+    margin-bottom: 15px;
+}
+.btn-txt {
+    font-size: 14px;
+}
+.first-intro-box {
+    color: black;
+    width: 30%;
+    justify-content: left;
+}
+.first-intro-box img {
+    width: 100%;
+}
+
+.first-intro-box hr {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.first-intro-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.small-box .box {
+    height: 5px;
+    width: 5px;
+    background-color: #D8D8D8;
+    margin-right: 3px;
+    margin-bottom: 12px;
+}
+.small-box {
+    justify-content: left;
+}
+.first-intro-box p {
+    color: #D8D8D8;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.para p {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.margin {
+    margin-top: 10px;
+}
+.articles {  
+    color: black;
+    text-align: center;
+    padding: 32px;
+    background-color: #EFEFEF;
+}
+.articles h2 {
+    font-size: 24px;
+}
+.box2 {
+    justify-content: center;
+    margin-top: 10px;
+}
+.article-box2 {
+    width: 47%;
+    margin: 1%;
+    justify-content: left;
+    background-color: white;
+    box-shadow: rgba(0,0, 0, 0.3);
+    /* border: 2px solid red; */
+}
+.article-img1 img {
+    width: 200px;
+    margin-right: 32px;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.main-article {
+    justify-content: stretchfhfh;
+}
+.colour-date {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.article-text1 {
+    text-align: left;
+}
+.article-text1 h3{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+}
+.article-text1 p {
+    font-size: 14px;
+}
+.color-para {
+    color: #D8D8D8;
+    margin-bottom: 20px;
+}
+.article-text1 a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    background-color: #D8D8D8;
+    padding: 10px;
+    border-radius: 20px;
+}
+.our-work {
+    padding: 32px;
+}
+.our-work img {
+    width: 24%;
+}
+.blog {
+    background-color: white;
+}
+.contact-us {
+    background: linear-gradient(to right,#1277E4,#7DF165);
+}
+.contact-us h2 {
+    color: white;
+}
+.iframe {
+    width: 30%;
+}
+.iframe  iframe{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.contact-in {
+    width: 60%;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.four-box {
+    height: 100px;
+    width: 100%;
+    background-color:transparent;
+}
+.col {
+    width: 47%;
+    height: 40%;
+    margin: 1%;
+    border-radius: 8px;
+    background-color: white;
+    text-align: left;
+}
+.col p {
+    padding: 10px;
+    font-size: 12px;
+}
+.col a {
+    color: black;
+    padding: 10px;
+}
+.col-big {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: left;
+}
+.col-big p {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.btn-contact a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    background-color:#CF3732;
+    border-radius: 20px;
+    padding: 10px;
+}
+.button {
+    text-align: left;
+    margin-top: 20px;
+}
+.company, .footer {
+    color: #ACACAC;
+    padding: 32px;
+    background: linear-gradient(to right,#414141,#000000);
+}
+.col-c1 {
+    width: 25%;
+    margin: 1%;
+}
+.col-c {
+    width: 15% ;
+}
+.col-c1 h3, .col-c h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.col-c1 p, .col-c p {
+    font-size: 10px;
+    line-height: 1.5;
+}
+.footer hr {
+    width: 100%;
+    border: 0.20px solid #D8D8D8;
+
+}
+.footer {
+    padding: 64px 32px;
+}
+.copyright-info {
+    margin-top: 20px;
+}
+.nav a {
+    margin-left: 10px;
+    color: #D8D8D8;
+}
